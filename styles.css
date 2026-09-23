@@ -401,7 +401,7 @@ a.workshop-card:hover{ border-color: var(--coral); }
 
 .dates{
   text-align:center;
-  padding: 1rem 6% 2em;
+  padding: 0rem 6% 2em;
 }
 .dates h2{
   font-family: var(--font-display);
@@ -415,7 +415,7 @@ a.workshop-card:hover{ border-color: var(--coral); }
 .dates p{
   font-family: var(--font-display);
   color: var(--coral);
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   line-height: 1.7;
 }
 
