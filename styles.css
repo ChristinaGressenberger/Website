@@ -205,7 +205,10 @@ blockquote .attribution{
 .portfolio-block .portfolio-media{ margin-top: 1.6rem; }
 .portfolio-block .portfolio-media img{ border-radius: 1px; width:100%; }
 
-a.portfolio-block{ display:block; }
+a.portfolio-block{ 
+  display:block; 
+  margin-top: 60px;
+}
 a.portfolio-block .portfolio-media img{ transition: opacity .2s ease; }
 a.portfolio-block:hover .portfolio-media img{ opacity: .85; }
 a.portfolio-block:hover h3{ color: var(--ink); }
