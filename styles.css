@@ -319,7 +319,7 @@ a.workshop-card:hover{ border-color: var(--coral); }
 .service-copy{
   max-width: 620px;
   margin: 0 auto;
-  padding: 0 6% 1rem;
+  padding: 0 6% 5rem;
 }
 .service-copy p{
   font-size: 1.0625rem;
