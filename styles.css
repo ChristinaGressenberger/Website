@@ -193,7 +193,7 @@ blockquote .attribution{
   flex-direction:column;
   gap: 5rem;
 }
-.portfolio-col.col-right{ margin-top: 14%; }
+.portfolio-col.col-right{ margin-top: 40%; }
 
 .portfolio-block.align-right{ text-align:right; }
 
