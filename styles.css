@@ -395,6 +395,9 @@ a.workshop-card:hover{ border-color: var(--coral); }
   line-height: 1.5;
   margin: 2.5rem 0;
 }
+.service-copy.home-styleing {
+  padding: 0 6% 2rem;
+}
 
 .dates{
   text-align:center;
