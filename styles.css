@@ -199,7 +199,8 @@ blockquote .attribution{
 .portfolio-block.align-right{ text-align:right; }
 
 .portfolio-block h3{
-  font-size: clamp(1.8rem, 4.2vw, 3.75rem);
+  /* font-size: clamp(1.8rem, 4.2vw, 3.75rem); */
+  font-size: 70xp;
   margin-bottom: 0;
 }
 
