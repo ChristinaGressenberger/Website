@@ -81,7 +81,7 @@ nav.site-nav a:hover{ color: var(--coral); }
   align-items:flex-start;
   padding: 3.5rem 0 4rem;
 }
-.split-hero .split-text{ flex: 1 1 260px; padding-left: 1rem; }
+.split-hero .split-text{ flex: 1 1 260px; min-width: 0; padding-left: 1rem; }
 .split-hero .split-media{ flex: 0 1 47%; }
 .split-hero .split-media img{ border-radius: 1px; }
 
@@ -194,13 +194,13 @@ blockquote .attribution{
   flex-direction:column;
   gap: 5rem;
 }
-.portfolio-col.col-right{ margin-top: 40%; }
+.portfolio-col.col-right{ margin-top: 48%; }
 
 .portfolio-block.align-right{ text-align:right; }
 
 .portfolio-block h3{
   /* font-size: clamp(1.8rem, 4.2vw, 3.75rem); */
-  font-size: 70xp;
+  font-size: 70px;
   margin-bottom: 0;
 }
 
@@ -218,10 +218,23 @@ a.portfolio-block:hover h3{ color: var(--ink); }
 /* WORKSHOPS */
 .workshops{ padding-bottom: 5rem; }
 .workshops .section-label{ margin-bottom: 0; }
+.workshops-hero {
+  position: relative;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 4%;
+  align-items:flex-start;
+  padding: 3.5rem 0 4rem;
+}
 .workshops-hero .split-text h2{
   /* font-size: clamp(2.4rem, 7vw, 4rem); */
   font-size: 70px;
+  padding: 2rem 0;
 }
+.workshops-hero .split-media img{
+  float: right;
+  width: 70%;
+} 
 .workshops blockquote{ text-align:center; max-width: 640px; padding: 0 6%; }
 
 /* each .workshop-item is flattened via display:contents so its card,
@@ -246,7 +259,7 @@ a.portfolio-block:hover h3{ color: var(--ink); }
   border: 4px solid var(--card-border);
   background: var(--card-bg);
   color: var(--ink);
-  padding: 2.6rem 1.4rem;
+  padding: 4.6rem 1.4rem;
   text-align:center;
 }
 .workshop-card h4{
@@ -284,9 +297,10 @@ a.workshop-card:hover{ border-color: var(--coral); }
 /* ABOUT — same split-hero pattern, full-width copy below */
 .about{ padding-bottom: 5rem; }
 .about .split-text h2{
-  font-size: clamp(2rem, 6vw, 3.75rem);
+  /* font-size: clamp(2rem, 6vw, 3.75rem); */
+  font-size: 70px;
 }
-.about .split-media{ flex-basis: 58%; margin-top: 1.5rem; }
+.about .split-media{ flex-basis: 58%; margin-top: 5.5rem; }
 .about-copy{
   max-width: 660px;
   margin: 3.5rem auto 0;
@@ -302,11 +316,12 @@ a.workshop-card:hover{ border-color: var(--coral); }
 
 /* SERVICE SUBPAGES — Interior Design / Fine Art Painting / Marketing */
 .service .split-media{
-  flex-basis: 58%;
-  margin-top: 1.5rem;
+  flex-basis: 50%;
+  margin-top: 5.5rem;
 }
 .service .split-text h1{
-  font-size: clamp(2.6rem, 8vw, 4.5rem);
+  /* font-size: clamp(2.6rem, 8vw, 4.5rem); */
+  font-size: 70px;
 }
 
 .lead-quote{
@@ -322,6 +337,7 @@ a.workshop-card:hover{ border-color: var(--coral); }
   max-width: 620px;
   margin: 0 auto;
   padding: 0 6% 5rem;
+  text-align: center;
 }
 .service-copy p{
   font-size: 1.0625rem;
@@ -411,7 +427,7 @@ footer.kontakt{
   text-align:center;
   padding: 0 6% 4rem;
 }
-footer.kontakt .section-label{ margin-bottom: 5rem; }
+footer.kontakt .section-label{ margin-bottom: 2rem; }
 footer.kontakt p{ font-size: 1.125rem; margin-bottom: .3rem; }
 
 @media (max-width: 760px){
@@ -446,7 +462,7 @@ footer.kontakt p{ font-size: 1.125rem; margin-bottom: .3rem; }
   .workshop-grid{ display:block; }
   .workshop-item{ display:block; margin-bottom: 2rem; }
   .workshop-item:last-child{ margin-bottom: 0; }
-  .workshop-card{ padding: 1.8rem 1.4rem; margin-bottom: 1rem; }
+  .workshop-card{ margin-bottom: 1rem; max-width: 250px; margin-left: auto; margin-right: auto; }
   .workshop-grid .datetime{ margin-bottom: .8rem; }
 
   .about{ padding-bottom: 2.5rem; }
