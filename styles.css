@@ -380,20 +380,14 @@ a.workshop-card:hover{ border-color: var(--coral); }
   margin: 2rem 0 .8rem;
 }
 .service-copy ul{
-  list-style:none;
   margin: 0 0 1.4rem;
+  text-align: left;
 }
 .service-copy ul li{
   font-size: 1.0625rem;
   line-height: 1.6;
   padding-left: 1.2em;
   position: relative;
-}
-.service-copy ul li::before{
-  content: '–';
-  position: absolute;
-  left: 0;
-  color: var(--coral);
 }
 .service-copy .text-emphasis{
   text-align:center;
